@@ -1,3 +1,7 @@
+# RomanNumbersConversion
+Test question 3 of 3 from [Aesops](https://www.notion.so/Aesops-Weekly-Coding-Tasks-11d495cef8304efa90ed183d48a02c3f)
+
+## Description
 Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D`, and `M`.
 
 ```
@@ -20,3 +24,22 @@ Roman numerals are usually written from largest to smallest from left to right. 
 - `C` can be placed before `D` (500) and `M` (1000) to make 400 and 900.
 
 Given a roman numeral, convert it to an integer.
+
+### Example 1
+
+```
+Input: s = "III"
+Output: 3
+Explanation: III = 3.
+```
+
+### Example 2
+
+```
+Input: s = "LVIII"
+Output: 58
+Explanation: L = 50, V= 5, III = 3.
+```
+
+## License
+MIT License. Copyright (c) 2022 Brian Kiume
